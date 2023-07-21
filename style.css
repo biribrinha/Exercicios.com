@@ -35,7 +35,7 @@ h1 {
 }
 
 #searchbar {
-    width: 70%;
+    width: 90%;
     height: 45px;
     border-radius: 16px;
     border: 1px solid #000;
@@ -48,7 +48,11 @@ h1 {
     align-items: center;
     justify-content: center;
     padding-bottom: 20px;
-    
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
 }
 
 .sessao2 {
@@ -96,4 +100,8 @@ details[open] summary~* {
         opacity: 1;
         margin-left: 0px
     }
+}
+
+#mensagem{
+    display: none;
 }
